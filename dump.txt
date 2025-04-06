@@ -1,0 +1,16 @@
+[TOKEN] compute
+[TOKEN] Variable name: z
+[TOKEN] =
+[TOKEN] Variable name: sqrt
+[TOKEN] (
+[TOKEN] x3
+[TOKEN] ^2
+[TOKEN] +
+[TOKEN] y4
+[TOKEN] ^2
+[TOKEN] )
+[TOKEN] ;
+[RESULT] sqrt = sqrt(3.000000^2 + 4.000000^2) = 5.00
+[ERROR] Unknown character: .
+[ERROR] Unknown character: /
+[TOKEN] compute
