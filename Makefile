@@ -1,6 +1,3 @@
 all:
 	flex compute.l
-	gcc lex.yy.c main.c compute.c -o compute -lm
-
-clean:
-	rm -f compute lex.yy.c
+	gcc -o main main.c compute.c lex.yy.c -lm
