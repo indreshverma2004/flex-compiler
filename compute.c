@@ -7,6 +7,7 @@ FILE *dumpFile;
 
 void compute_result(char varName[], int xIndex, int yIndex) {
     // Simulate xVal and yVal (replace with actual input lookup if needed)
+    //INDRESH VERMA
     xVal = (float)xIndex;
     yVal = (float)yIndex;
 

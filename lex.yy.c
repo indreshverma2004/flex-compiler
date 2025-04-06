@@ -14,6 +14,7 @@
 #endif
 
 /* First, we deal with  platform-specific or compiler-specific issues. */
+//indresh verma
 
 /* begin standard C headers. */
 #include <stdio.h>
