@@ -3,14 +3,27 @@
 [TOKEN] =
 [TOKEN] Variable name: sqrt
 [TOKEN] (
-[TOKEN] x3
+[TOKEN] x7
 [TOKEN] ^2
 [TOKEN] +
-[TOKEN] y4
+[TOKEN] y3
 [TOKEN] ^2
 [TOKEN] )
 [TOKEN] ;
-[RESULT] sqrt = sqrt(3.000000^2 + 4.000000^2) = 5.00
-[ERROR] Unknown character: .
-[ERROR] Unknown character: /
-[TOKEN] compute
+
+[RESULT] sqrt = sqrt(7.000000^2 + 3.000000^2) = 7.62
+
+[THREE ADDRESS CODE]
+t1 = x7 * x7
+t2 = y3 * y3
+t3 = t1 + t2
+sqrt = sqrt(t3)
+
+[OPCODES]
+LOAD x7
+MUL x7, x7
+LOAD y3
+MUL y3, y3
+ADD
+SQRT
+STORE sqrt
